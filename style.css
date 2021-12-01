@@ -1,3 +1,82 @@
 body {
+	width: 100%;
+	height: 1500px;
+	color: white;
+	background: linear-gradient(90deg, red, orange, yellow, green, blue, purple, red);
+	background-size: 3000% 3000%;
+	animation: gradient 2s infinite;
+}
+div.textHolder {
+  width: 50%;
+  height: 1500px;
+  margin-top: -210px;
+  margin-left: 25%;
+  background-color: salmon;
+  border-radius:20px;
+  filter: drop-Shadow(30px 15px 30px #000000);
+  border-style: solid;
+  border-color: #bfe3c8;
+}
+h1 {
+  color: #2E5266;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  filter: drop-Shadow(2px 1px 2px #000000)
+}
+p {
+  color: #6E8898;
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right:20px;
+  font-weight:bold;
+  text-indent: 30px;
+}
 
+@keyframes gradient {
+	0% {background-position: 0%}
+	100% {background-position: 100%}
+}
+
+div {
+	font-weight: 500;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+}
+p.top {
+  padding-right: 40%;
+  filter: drop-Shadow(2px 1px 2px #000000)
+}
+p.bottom {
+  padding-left:40%;
+  filter: drop-Shadow(2px 1px 2px #000000)
+}
+img.rainbow {
+  width: 40%;
+  height: 20%;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 6%;
+  border-color:#bfe3c8;
+  border-style:solid;
+  transform: rotate(90deg);
+  border-radius: 10px;
+  filter: drop-Shadow(15px -10px 15px #000000)
+}
+iframe {
+  position:absolute;
+  margin-left:-45%;
+  margin-top: 15%;
+  filter: drop-Shadow(-10px 15px 15px #000000)
+}
+ul {
+  text-align: left;
+  list-style: none;
+  color: #6E8898;
+  font-size:20px;
+  filter: drop-Shadow(2px 1px 2px #000000)
 }
