@@ -1,3 +1,10 @@
 h1 {
 	color: red;
 }
+ul.nav{
+  list-style-shape:none;
+}
+li a {
+  float: left;
+  padding-right: 10px;
+}
