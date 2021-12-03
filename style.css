@@ -1,7 +1,7 @@
 h1 {
 	color: red;
 }
-ul.nav{
+ul.nav li{
   list-style-shape:none;
 }
 li a {
